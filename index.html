@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Intersection</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="assets/app.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+	var multiplier = 5;
+	var circles_data = {
+		C1: {name: 'BODY',   id: 'C1', x:405, y:357, r: 55 * multiplier, min: 3 * multiplier, color:'#ff3a15'},
+		C2: {name: 'ENERGY', id: 'C2', x:412, y:470, r: 21 * multiplier, min: 1 * multiplier, color:'#51dc00'},
+		C3: {name: 'CPU',	 id: 'C3', x:637, y:181, r: 34 * multiplier, min: 2 * multiplier, color:'#0056b5'}
+	};
+  </script>
+  <script src="assets/app.js"></script>
+</head>
+<body>
+	<svg id="circles_extras"></svg>
+	<svg id="circles_main"></svg>
+	<div class="controls">
+		<h1>Character generation prototype</h1>
+		<div id="conrol"></div>
+		<div id="log"></div>
+	</div>
+
+	<script>
+	</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {overflow:scroll;overflow-x:hidden;font-family: 'Roboto', sans-serif;font-size:16px;line-height:20px;}
+h1 {font-size: 20px;line-height: 25px;margin-bottom: 30px;color: #0766bf;}
+h2 {font-size: 18px;line-height: 23px;margin-bottom: 20px;background-color: #0766bf;color:#fff;text-align:center;}
+
+svg {position:absolute;width:100vw;height:100vh;z-index:-1;mix-blend-mode:hue;z-index:-1;opacity:1;top:0;left:0;}
+svg polygon	{fill:transparent;stroke: #000;stroke-width: 1;}
+svg .cir	{mix-blend-mode: overlay;opacity:0.8;}
+svg .point	{mix-blend-mode:hue;}
+
+.controls {position:fixed;top:0;left:0;z-index:100;}
+#conrol {padding:15px;z-index:100;width:200px;text-align:center;}
+.ui-slider {margin:5px 0 20px;}
+.slider-text {display:flex;}
+.slider-text > span {flex:1;box-sizing:border-box;padding:5px;text-align:left;}
+.slider-text > span + span {text-align:center;font-weight:bold;}
+.slider-text > span + span + span {text-align:right;font-weight:normal;}
