@@ -163,6 +163,7 @@ var CIRCLES = {
 	updateUiElements: function(){
 		this.triangleArea();
 		this.svg.update();
+		this.getReport();
 	},
 	svg: {
 		update: function(initial){
